@@ -1,0 +1,48 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "noteTitle": "Hello",
+      "noteText": "Write your note here...",
+      "date": "13/09/2022",
+      "isVisible": true
+    },
+    {
+      "id": "4nux1bz6dv02rHz_hcwEU",
+      "noteTitle": "Bye",
+      "noteText": "Write your note here...",
+      "date": "02/09/2022",
+      "isVisible": true
+    },
+    {
+      "id": "4nux1bz6Av42rHz_hcwEZ",
+      "noteTitle": "Hello man",
+      "noteText": "Only for today",
+      "date": "20/09/2022",
+      "isVisible": true
+    },
+    {
+      "id": "4nux1bz6Av02eHz_hcwEU",
+      "noteTitle": "Hi",
+      "noteText": "Write your note here...",
+      "date": "02/09/2022",
+      "isVisible": true
+    },
+    {
+      "id": "BGrrfPxmlFm4Bii2TqPId",
+      "noteTitle": "Flower",
+      "noteText": "White flower",
+      "date": "20/09/2022",
+      "isVisible": true
+    }
+  ],
+  "backup": [
+    {
+      "id": "poPfnaF3_OoAVO5JlTjHL",
+      "noteTitle": "Potato",
+      "noteText": "Buy 2 potatoes for dinner.",
+      "date": "21/09/2022",
+      "isVisible": true
+    }
+  ]
+}
