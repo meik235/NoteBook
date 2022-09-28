@@ -7,11 +7,16 @@ const Note = (props) => {
   const [checkedBoxId, setCheckedBoxId] = useState([]);
 
   const checkedBoxIdHandler = (event) => {
-    if (!checkedBoxId.includes(event.target.value)) {
-      setCheckedBoxId((prevState) => [...prevState, event.target.value]);
+    let id = event.target.value;
+    if (!checkedBoxId.includes(id)) {
+      setCheckedBoxId((prevState) => [...prevState, id]);
       // setCheckedBoxId(event.target.value);
+    } else {
+      let copyCheckedBoxId = checkedBoxId.filter((element) => element !== id);
+      setCheckedBoxId(copyCheckedBoxId);
     }
   };
+  
   console.log(checkedBoxId);
 
   useEffect(() => {
